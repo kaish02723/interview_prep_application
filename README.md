@@ -1,0 +1,79 @@
+# Interview Prep App (Flutter)
+
+## 📌 Short Description
+A mini interview preparation mobile app built using Flutter.
+The app allows users to practice interview questions, submit answers,
+get basic feedback scores, and receive daily interview reminders
+using **local notifications**.
+
+This project is built as part of an interview assignment
+focusing on clean architecture, local storage, and state management.
+
+---
+
+## Screens
+
+- Login Screen  
+  Dummy authentication using local SQLite storage.
+
+- Home Screen  
+  Displays list of interview questions stored locally.
+
+- Question Detail Screen  
+  Shows question text, role & difficulty tags, and answer input field.
+
+- Feedback Screen  
+  Displays score (1–5) based on basic scoring logic.
+
+- Attempts History Screen  
+  Shows previous answers with scores and timestamps.
+
+
+## 🚀 Features
+- Dummy login (local-only using SQLite)
+- List of interview questions (local DB)
+- Question detail screen with:
+    - Question text
+    - Role & difficulty tags
+    - Answer input field
+- Answer submission with local storage
+- Attempts history screen showing:
+    - Previous answers
+    - Feedback scores (1–5)
+- Basic answer scoring logic:
+    - Length-based / keyword-based
+- Daily interview reminder using **local notifications**
+  (No device token / FCM required)
+
+👉 All assignment requirements are fully implemented and tested.
+
+---
+
+## 🛠 Tech Stack
+- **Flutter** – UI development
+- **SQLite (sqflite)** – Local database (login, questions, attempts)
+- **flutter_local_notifications** – Daily reminder notification
+- **BLoC** – State management (MVVM pattern)
+
+---
+
+## 🗂 Folder Structure
+
+lib/
+├── data/
+│ ├── datasources/ # SQLite DB & local storage
+│ ├── models/ # Data models
+│ 
+│
+├── domain/
+│ ├── entities/ # Core entities
+│ ├── scoring/ # Scoring logic 
+│ 
+│
+├── presentation/
+│ ├── screens/ # UI screens
+│ 
+│ 
+│
+├── notification_service.dart # Local notification handling
+└── main.dart # App entry point
