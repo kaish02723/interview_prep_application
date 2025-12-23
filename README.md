@@ -1,4 +1,13 @@
-# Interview Prep App (Flutter)
+![questions screen](https://github.com/user-attachments/assets/b3401b5f-d937-4dd5-ad2f-d1429675fe18)# Interview Prep App (Flutter)
+
+#Output
+![login screen](https://github.com/user-attachments/assets/b3c6a9c9-b89c-4a23-8c7c-eaccb905ef8d)
+![home screen](https://github.com/user-attachments/assets/48eccc9b-6735-4e81-872b-6cb02754ad42)
+![questions screen](https://github.com/user-attachments/assets/11b1ef42-f658-40bb-9bb3-ca613508aaa4)
+![questio screen2](https://github.com/user-attachments/assets/798390f1-a470-417e-9e51-bf1f40d652e5)
+![attempt history screen](https://github.com/user-attachments/assets/ddfc4e08-a55d-4b54-b4fc-3743a4f4dac1)
+
+
 
 ## 📌 Short Description
 A mini interview preparation mobile app built using Flutter.
